@@ -1,0 +1,21 @@
+{
+  "name": "module-host",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Minimal native ESM dynamic module host for Obsidian",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "node esbuild.config.mjs production",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "esbuild": "^0.20.0",
+    "eslint": "^9.19.0",
+    "eslint-plugin-obsidianmd": "latest",
+    "obsidian": "latest",
+    "typescript": "^5.0.0"
+  }
+}

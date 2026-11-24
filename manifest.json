@@ -1,0 +1,9 @@
+{
+  "id": "module-host",
+  "name": "Module Host",
+  "version": "1.0.0",
+  "minAppVersion": "1.11.5",
+  "description": "Load and hot-reload standalone local JavaScript drawer modules from your vault with lifecycle cleanup and secret storage support.",
+  "author": "1653lin4",
+  "isDesktopOnly": true
+}

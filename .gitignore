@@ -1,0 +1,15 @@
+# 依赖库
+node_modules/
+
+# 编译生成物
+main.js
+dist/
+
+# 本地运行数据与测试库目录
+data.json
+.obsidian/
+
+# 操作系统缓存垃圾
+.DS_Store
+Thumbs.db
+*.log
