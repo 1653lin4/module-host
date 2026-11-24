@@ -47,6 +47,7 @@ export class PluginLoader {
         const finalUrl = `${resourceUrl}${separator}t=${Date.now()}`;
 
         try {
+          // eslint-disable-next-line no-unsanitized/method -- Dynamic import of user-managed local modules is the core purpose of Module Host
           const imported: unknown = await import(finalUrl);
 
           const candidate =
